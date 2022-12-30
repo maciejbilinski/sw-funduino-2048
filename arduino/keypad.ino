@@ -16,7 +16,7 @@ byte colPins[COLS] = {5, 4, 3, 2};
 Keypad cKeypad = Keypad(makeKeymap(hexaKeys), rowPins, colPins, ROWS, COLS); 
 
 void setup(){
-  Serial.begin(9600);
+  Serial.begin(4800);
 }
   
 void loop(){
